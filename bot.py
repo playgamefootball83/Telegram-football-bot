@@ -36,3 +36,8 @@ if __name__ == "__main__":
     # Tournament commands
     app.add_handler(CommandHandler("register_tournament", handle_tournament_commands))
     app.run_polling()
+
+application.add_handler(CommandHandler("start_auction", start_auction))
+application.add_handler(CommandHandler("add_player", add_player))
+application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, bid))
+application.add_handler(CommandHandler("next", next_player))
