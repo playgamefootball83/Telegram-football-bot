@@ -1,0 +1,2 @@
+2. Configure `config.py` with your BOT TOKEN and Mongo URI
+3. Run the bot:
