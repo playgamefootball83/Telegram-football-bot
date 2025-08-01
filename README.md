@@ -1,6 +1,6 @@
 # ⚽ Telegram Football Bot
 
-A powerful Telegram bot to play football matches, tournaments & auctions with stats and commentary.
+A powerful Telegram bot to play football matches, tournaments & auctions with live stats and commentary.
 
 ---
 
@@ -18,10 +18,14 @@ A powerful Telegram bot to play football matches, tournaments & auctions with st
 git clone https://github.com/playgamefootball83/Telegram-football-bot.git
 cd Telegram-football-bot
 
-# Install requirements
+# Install dependencies
 pip install -r requirements.txt
 
 # Set environment variables and run
-export BOT_TOKEN=your_bot_token
-export OWNER_USERNAME=your_username
+export BOT_TOKEN=7665417259:AAG_1zJDDv21BrBoANbNjfADiQPk4A1WRco
+export OWNER_USERNAME=II_Mr_Attitude_II
+export SUPPORT_GROUP=https://t.me/Football_support_group
+export SUPPORT_CHANNEL=https://t.me/Football_support_channel
+export LOGS_GROUP_ID=-1002725338652
+
 python3 main.py
