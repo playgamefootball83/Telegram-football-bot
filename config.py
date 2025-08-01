@@ -1,5 +1,5 @@
 # 🔐 Bot Token
-TOKEN = "7665417259:AAG_1zJDDv21BrBoANbNjfADiQPk4A1WRco"
+TOKEN = "7665417259:AAHOFCMgwTj-yqT31qBjt8W2JicHx8xevSM"
 
 # 🌐 MongoDB URI (replace with your connection string)
 MONGO_URI = "mongodb://localhost:27017/footballbot"
